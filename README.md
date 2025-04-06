@@ -28,6 +28,12 @@ Este projeto é uma aplicação web para gerenciamento de lembretes (anotações
 - 🔍 Buscar lembretes
 - 💾 Persistência dos dados com JPA/Hibernate
 
+## 🖼️ Preview da Aplicação
+
+Abaixo um exemplo da interface principal da aplicação:
+
+![Tela principal](./assets/print-home.png)
+
 ## 🧪 Como Rodar o Projeto Localmente
 
 ### 🔧 Backend (Java + Spring Boot)
