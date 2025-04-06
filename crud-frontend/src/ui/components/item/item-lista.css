@@ -1,0 +1,66 @@
+.item-container {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.mensagem-item-container {
+    margin: 6px ;
+    flex:1;
+}
+
+.titulo-item-container {
+    margin: 6px ;
+    flex:0.55;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid lightgray;
+}
+
+.numero-item-container {
+    margin: 6px ;
+    flex:0.1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.botao-apagar-item-container {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 4px;
+    margin-left: 6px;
+    flex:0.1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-editar-item-container {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-right: 4px;
+    flex:0.1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-editar-item-container,
+.botao-apagar-item-container {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.botao-editar-item-container:hover {
+  color: #007bff;
+}
+
+.botao-apagar-item-container:hover {
+  color: red;
+}
